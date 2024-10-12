@@ -4,19 +4,19 @@ const projectData = [
   {
     projectName: "Mappilahal",
     description: "'Mappila Haal' is an interactive virtual exhibition on 1921 Malabar rebellion.",
-    projectImage: "https://play-lh.googleusercontent.com/IZaMlyoufj705lrByE23EvMg25RyyujPmQ-0igF9h61JZfmorlMNWi412zVzkQi-8grQ=w240-h480-rw",
+    projectImage: "/Mappilahal.JPG",
     skills: ["React", "Oracle", "Flutter", "TailwindCss", "NodeJS"]
   },
   {
     projectName: "Muhasabah",
     description: "Muhasabah is a comprehensive Ihthisab App to get accurate prayer times, adhan time, azan alarm, recite the Holy Quran, and track your salat performance, dua, etc.",
-    projectImage: "https://play-lh.googleusercontent.com/BVzWSapxIO_jLR-eXvnDaxZUIXJHYUyZ_hcgNCj212QrqXpw934a95NrQuc9zFcRbFI=w240-h480-rw",
+    projectImage: "Muhasabah.JPG",
     skills: ["Flutter", "Aws", "TailwindCss", "NodeJS"]
   },
   {
     projectName: "Mahsoorath",
     description: "This is a handbook prepared by Imam Hassan al-Banna for his members of the organization with the aim of cultivating the culture of Tazqiyyah, in which the whole of life is organized by the remembrance of Allah.",
-    projectImage: "https://play-lh.googleusercontent.com/o2Tm7XyEiUJL6ML7xQ31AXNDgR085AiJashKH3q_8ZH6Ow59MU7Uwbcx5zapm8Ov0g=w240-h480-rw",
+    projectImage: "Mahsoorath.JPG",
     skills: ["Oracle", "Flutter", "VueJs", "NodeJS"]
   }
 ];
