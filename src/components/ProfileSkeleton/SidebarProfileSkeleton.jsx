@@ -1,4 +1,7 @@
 import React from 'react';
+import toast, { Toaster } from 'react-hot-toast';
+
+
 
 const projectData = [
   {
@@ -20,6 +23,9 @@ const projectData = [
     skills: ["Oracle", "Flutter", "VueJs", "NodeJS"]
   }
 ];
+
+const notify = () => toast.success('Project Status: Completed!');
+
 
 function ProjectList() {
   return (
@@ -46,7 +52,8 @@ function ProjectList() {
 
           <div className="ml-auto">
           <button
-            type="button"
+          onClick={notify}
+            type="button" 
             className="h-10 w-full mt-5 cursor-pointer rounded-lg border-2  bg-black transition-all text-white  dark:text-white"
           >
         Contribute
