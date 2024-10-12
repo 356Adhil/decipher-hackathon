@@ -79,10 +79,10 @@ function Card({ data }) {
         </div>
         <div
           className={` md:absolute md:right-2 md:top-2 ${
-            data.portfolio ? 'ml-auto w-28 hover:underline' : 'ml-auto w-28 cursor-not-allowed brightness-50'
+            data.social.LinkedIn ? 'ml-auto w-28 hover:underline' : 'ml-auto w-28 cursor-not-allowed brightness-50'
           }`}
         >
-          <a href={data.portfolio} className="text-textSecondary" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/feed/" className="text-textSecondary" target="_blank" rel="noreferrer">
             View Profile &#8594;
           </a>
         </div>
