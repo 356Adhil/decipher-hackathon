@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
-
+import SidebarProfileSkeleton from '../ProfileSkeleton/SidebarProfileSkeleton';
 function Sidebar() {
   const [theme, setTheme] = useState('dark');
 
@@ -52,7 +52,12 @@ function Sidebar() {
           </button>
         </a>
       </div>
+
+      <div className='mt-5' >
+        <SidebarProfileSkeleton/>
+      </div>
     </div>
+    
   );
 }
 
