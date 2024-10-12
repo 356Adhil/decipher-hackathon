@@ -31,6 +31,7 @@ function Sidebar() {
           </div>
         </a>
         <div className="ml-auto">
+          
           <button
             type="button"
             className="h-10 w-10 cursor-pointer rounded-lg border-2 border-borderSecondary bg-white transition-all hover:border-textSecondary hover:text-textSecondary dark:border-borderColor dark:bg-textPrimary dark:text-white dark:hover:border-textSecondary dark:hover:text-textSecondary"
@@ -44,16 +45,11 @@ function Sidebar() {
           </button>
         </div>
       </div>
-      <div className="text-secondaryColor dark:text-white">Discover and Connect with Skilled Developers.</div>
-      <div className="pt-5">
-        <a href="https://github.com/shyamtawli/devFind#how-to-add-your-profile-" target="_blank" rel="noreferrer">
-          <button className="inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
-            Add your profile
-          </button>
-        </a>
-      </div>
-
-      <div className='mt-5' >
+      <div className="text-secondaryColor dark:text-white">Discover and Connect with Fellow Villa Mates.</div>
+     
+     <h2 className='font-bold text-2xl mt-4 uppercase ' > Projects </h2>
+       
+      <div className='mt-2' >
         <SidebarProfileSkeleton/>
       </div>
     </div>

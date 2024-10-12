@@ -8,6 +8,7 @@ import NoResultFound from './components/NoResultFound/NoResultFound';
 import Pagination from './components/Pagination/Pagination';
 import './App.css';
 import filenames from './ProfilesList.json';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
   const profilesRef = useRef();
@@ -130,7 +131,9 @@ function App() {
 
   return currentUrl === '/' ? (
     
+
     <div className="App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row">
+      <Toaster />
       <Sidebar />
       <div className="w-full pl-5 pr-4 md:h-screen md:w-[77%]  md:py-7" ref={profilesRef}>
         <Search onSearch={handleSearch} />
